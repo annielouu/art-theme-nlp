@@ -1,5 +1,5 @@
 import streamlit as st
-import streamlit.components.v1 as components
+import streamlit.components.v1 as st.components
 from plotly.express.data import stocks
 import plotly.express as px
 import plotly.graph_objects as go
