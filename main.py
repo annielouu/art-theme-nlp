@@ -1,4 +1,5 @@
 import streamlit as st
+import streamlit.components.v1 as components
 from plotly.express.data import stocks
 import plotly.express as px
 import plotly.graph_objects as go
@@ -105,7 +106,7 @@ st.title('Evolution of Themes in Art')
 st.header('Overview')
 # with open('myfile.html', 'r') as f:
 #     content = f.read()
-#     st.components.v1.html(content, height=400)
+#     st.components.html(content, height=400)
 
 st.markdown("""
 Art reflects society, politics, culture, and personal experiences. The advancements in machine learning techniques offered us more powerful and structured ways to explore art history.
@@ -275,31 +276,31 @@ tab1, tab2, tab3, tab4, tab5, tab6, tab7= st.tabs(["Untitled","Self Portrait","L
 with tab1:
   with open('plots/untitled_frequency.html', 'r') as f:
       content = f.read()
-      st.components.v1.html(content,height=400)
+      st.components.html(content,height=400)
 with tab2:
   with open('plots/self_portrait_frequency.html', 'r') as f:
       content = f.read()
-      st.components.v1.html(content,height=400)
+      st.components.html(content,height=400)
 with tab3:
   with open('plots/landscape_frequency.html', 'r') as f:
       content = f.read()
-      st.components.v1.html(content,height=400)
+      st.components.html(content,height=400)
 with tab4:
   with open('plots/men_frequency.html', 'r') as f:
       content = f.read()
-      st.components.v1.html(content,height=400)
+      st.components.html(content,height=400)
 with tab5:
   with open('plots/woman_frequency.html', 'r') as f:
       content = f.read()
-      st.components.v1.html(content,height=400)
+      st.components.html(content,height=400)
 with tab6:
   with open('plots/annunciation_frequency.html', 'r') as f:
       content = f.read()
-      st.components.v1.html(content,height=400)
+      st.components.html(content,height=400)
 with tab7:
   with open('plots/crucifixion_frequency.html', 'r') as f:
       content = f.read()
-      st.components.v1.html(content,height=400)\
+      st.components.html(content,height=400)\
       
 st.markdown("""
 - Although <span style='color:#D85645; font-weight:bold'>"untitled"</span> is the most frequently used word in artwork titles, \
@@ -876,7 +877,7 @@ with col1:
     with open('plots/kmeans_4.html', 'r') as f:
         content = f.read()
         # centered_content = f'<div style="display: flex; justify-content: center;">{content}</div>'
-        st.components.v1.html(content, height=600)
+        st.components.html(content, height=600)
 
 with col2:
     st.markdown("""
@@ -895,7 +896,7 @@ with col1:
     with open('plots/kmeans_8.html', 'r') as f:
         content = f.read()
         # centered_content = f'<div style="display: flex; justify-content: center;">{content}</div>'
-        st.components.v1.html(content, height=600)
+        st.components.html(content, height=600)
 
 with col2:
     st.markdown("""
@@ -917,7 +918,7 @@ col1, col2 = st.columns([3,2])
 with col1:
     with open('plots/dbscan.html', 'r') as f:
         content = f.read()
-        st.components.v1.html(content, height=600)
+        st.components.html(content, height=600)
 
 with col2:
     st.markdown("""
