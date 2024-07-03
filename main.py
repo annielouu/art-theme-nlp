@@ -104,9 +104,12 @@ df = stocks(indexed=False, datetimes=True)
 st.title('Evolution of Themes in Art')
 
 st.header('Overview')
+<<<<<<< Updated upstream
 # with open('myfile.html', 'r') as f:
 #     content = f.read()
 #     components.html(content, height=400)
+=======
+>>>>>>> Stashed changes
 
 st.markdown("""
 Art reflects society, politics, culture, and personal experiences. The advancements in machine learning techniques offered us more powerful and structured ways to explore art history.
@@ -214,6 +217,7 @@ fig.update_layout(width=1200, height=400, margin=dict(l=20, r=50, t=50, b=20), y
     st.code(code, language = 'python')
     
 
+<<<<<<< Updated upstream
 # with st.container():
 #   st.markdown("""
 #               <p class="text-block">
@@ -225,6 +229,8 @@ fig.update_layout(width=1200, height=400, margin=dict(l=20, r=50, t=50, b=20), y
 #              </p>""",
 #              unsafe_allow_html=True)
 
+=======
+>>>>>>> Stashed changes
 st.subheader("""What are the most popular words and phrases?""")    
 
 st.markdown("""
@@ -252,19 +258,33 @@ fig.update_layout(
     xaxis_title='Frequency',
     xaxis={
         'title_font': {
+<<<<<<< Updated upstream
             'size': 18  # Adjust x-axis title size here
         },
         'tickfont': {
             'size': 14  # Adjust x-axis tick text size here
+=======
+            'size': 18  # Adjust x-axis title size
+        },
+        'tickfont': {
+            'size': 14  # Adjust x-axis tick text size
+>>>>>>> Stashed changes
         }
     },
     yaxis_title='Words',
     yaxis={
         'title_font': {
+<<<<<<< Updated upstream
             'size': 18  # Adjust y-axis title size here
         },
         'tickfont': {
             'size': 14  # Adjust y-axis tick text size here
+=======
+            'size': 18  # Adjust y-axis title size
+        },
+        'tickfont': {
+            'size': 14  # Adjust y-axis tick text size
+>>>>>>> Stashed changes
         }
     }
 )
@@ -518,6 +538,7 @@ with col2:
       """,
       unsafe_allow_html=True
    )
+<<<<<<< Updated upstream
    # st.image("https://static.streamlit.io/examples/owl.jpg")
 
 st.subheader(""" Themes in Art in Different Periods of Time
@@ -525,6 +546,11 @@ st.subheader(""" Themes in Art in Different Periods of Time
 # tab1, tab2, tab3, tab4, tab5= st.tabs(['Ancient Period(3050BCE - 0CE)',"Medieval Period (0 CE - 1500 CE)","Early Modern Period (1500 CE - 1760 CE)",\
 #                                                    "Industrial Revolution (1760 CE - 1914 CE)","World War I to Present (1914 - 2023)"])
 
+=======
+
+st.subheader(""" Themes in Art in Different Periods of Time
+             """)
+>>>>>>> Stashed changes
 
 st.markdown("""
             <h2 style='color: #D85645; font-weight:600; font-size:1.5em;'>Ancient Period(3050BCE - 0CE)</h2>
@@ -876,7 +902,10 @@ col1, col2 = st.columns([3,2])
 with col1:
     with open('plots/kmeans_4.html', 'r') as f:
         content = f.read()
+<<<<<<< Updated upstream
         # centered_content = f'<div style="display: flex; justify-content: center;">{content}</div>'
+=======
+>>>>>>> Stashed changes
         components.html(content, height=600)
 
 with col2:
@@ -895,7 +924,10 @@ col1, col2 = st.columns([3,2])
 with col1:
     with open('plots/kmeans_8.html', 'r') as f:
         content = f.read()
+<<<<<<< Updated upstream
         # centered_content = f'<div style="display: flex; justify-content: center;">{content}</div>'
+=======
+>>>>>>> Stashed changes
         components.html(content, height=600)
 
 with col2:

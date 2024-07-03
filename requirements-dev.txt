@@ -1,0 +1,13 @@
+plotly @ file:///Users/ec2-user/ci_py311/plotly_1678382250051/work
+pandas==2.1.0
+matplotlib @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_41fhwn4tj9/croot/matplotlib-suite_1679593479845/work
+matplotlib-inline @ file:///Users/ec2-user/ci_py311/matplotlib-inline_1678317544666/work
+seaborn @ file:///Users/ec2-user/ci_py311/seaborn_1678394152964/work
+numpy @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_bdk7p7tnsw/croot/numpy_and_numpy_base_1682520579379/work
+numpydoc @ file:///Users/ec2-user/ci_py311/numpydoc_1678393034712/work
+mpmath==1.2.1
+sphinxcontrib-jsmath @ file:///home/ktietz/src/ci/sphinxcontrib-jsmath_1611920942228/work
+nltk @ file:///opt/conda/conda-bld/nltk_1645628263994/work
+textblob==0.17.1
+bertopic==0.15.0
+gensim @ file:///Users/ec2-user/ci_py311/gensim_1678412014794/work
