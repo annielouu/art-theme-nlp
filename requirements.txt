@@ -1,1 +1,5 @@
-plotly
+<<<<<<< Updated upstream
+plotly @ file:///Users/ec2-user/ci_py311/plotly_1678382250051/work
+>>>>>>> Stashed changes
+plotly @ file:///Users/ec2-user/ci_py311/plotly_1678382250051/work
+streamlit                 1.32.0          py312hecd8cb5_0  

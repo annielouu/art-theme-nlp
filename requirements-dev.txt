@@ -1,0 +1,4 @@
+streamlit                 1.32.0          py312hecd8cb5_0  
+plotly @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_388beowvk7/croot/plotly_1718136946444/work
+pandas @ file:///private/var/folders/c_/qfmhj66j0tn016nkx_th4hxm0000gp/T/abs_f3c5inakly/croot/pandas_1718308972943/work/dist/pandas-2.2.2-cp312-cp312-macosx_10_15_x86_64.whl#sha256=9960ca21ae114c52ceef491ebf7c1d9db8ce9c2e878bd4abbf0b3eea32ac27c2
+numpy @ file:///private/var/folders/c_/qfmhj66j0tn016nkx_th4hxm0000gp/T/abs_b7iptlxgej/croot/numpy_and_numpy_base_1708638622773/work/dist/numpy-1.26.4-cp312-cp312-macosx_10_9_x86_64.whl#sha256=94ff619271f410d5b23b2f118daf4420d22b48b21c941819693d61b19667808d
